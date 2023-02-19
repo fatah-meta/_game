@@ -1,0 +1,50 @@
+/* css code goes here */
+.head-title{
+    margin-left: 50px;
+}
+#container {
+    display: flex;
+    margin-left: 50px;
+}
+#container-grid {
+    width: 450px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+#happy {
+    margin-left: 20px;
+}
+#sad {
+    display: none;
+    margin-left: 20px;
+}
+.cells {
+    width: 50px;
+    height: 50px; 
+    background-color: white;
+    border: 0.5px black solid;
+    color: transparent;
+}
+label {
+    margin-left: 90px;
+    font-size: 200%;
+    font-family: cursive;
+}
+#gameScore{
+    margin-left: 10px;
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 60px;
+    font-size: 200%;
+}
+#resultDisplay {
+    margin-left: 80px;
+    font-size: 200%;
+    color: crimson;
+}
